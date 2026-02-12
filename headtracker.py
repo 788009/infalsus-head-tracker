@@ -28,6 +28,7 @@ BETA = 0.05
 # 显示实时摄像头画面（可能带来一定延迟）
 SHOW_CAMERA = True
 
+# 取消强制暂停，避免卡顿
 pydirectinput.PAUSE = 0
 pydirectinput.FAILSAFE = False
 pyautogui.PAUSE = 0
