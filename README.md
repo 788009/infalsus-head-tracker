@@ -32,7 +32,7 @@ python headtracker.py
 
 ## 原理与踩坑
 
-`headtracker.py` 是我与 Gemini 进行十几轮对话得到的结果，原理是将将鼻尖相对于双眼中心在画面上的 2D 偏移量映射到光标的横坐标，并使用 One Euro Filter 优化。
+`headtracker.py` 是我与 Gemini 进行十几轮对话得到的结果，原理是用 [MediaPipe](https://github.com/google-ai-edge/mediapipe) 实时获取面部 landmarks，将鼻尖相对于双眼中心在画面上的 2D 偏移量映射到光标的横坐标，并使用 One Euro Filter 优化。
 
 值得注意的一点是，用 `pyautogui` 来模拟鼠标是没有作用的，必须用 `pydirectinput`。
 
