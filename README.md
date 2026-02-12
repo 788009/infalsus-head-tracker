@@ -1,6 +1,6 @@
 # In Falsus Head Tracker
 
-基于头部旋转角度的 [In Falsus](https://infalsus.lowiro.com/) 天键解决方案。
+基于头部旋转角度的 [In Falsus](https://infalsus.lowiro.com/) 天键解决方案，实际效果参考[这个视频](https://www.bilibili.com/video/BV1z4cqzWEQW/)。
 
 ## 使用方法
 
